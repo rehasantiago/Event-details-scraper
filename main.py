@@ -70,12 +70,11 @@ def scrape_page(url,j):
         return None
 
 
-############ Create Object ###########
+
 
 def pageNumbers(link):
     ret = 1
     
-############ Sending Request ###########
 
     cap = DesiredCapabilities().FIREFOX
     cap["marionette"] = False
